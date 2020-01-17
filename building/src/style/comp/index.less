@@ -1,0 +1,23 @@
+@base: #f938ab;
+
+.row {
+  color: @base;
+  &:hover {
+    color: lighten(@base, 50%)
+  }
+}
+
+.test {
+  color: @base;
+}
+
+.box {
+  padding: 10px;
+  font-size: 30px;
+  background: #eee;
+  color: #333;
+  cursor: pointer;
+  &:hover {
+    color: green;
+  }
+}
